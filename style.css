@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-sep-26, 12:44:03
+    Author     : Marcus
+*/
+
+body
+{
+    background-image: url('Images/spacebackground.jpg');
+    background-size: cover;
+    font-family: 'Orbitron', sans-serif;
+    font-style: 'Orbitron';
+    
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    
+    user-select: none;
+}
+
+
+.buttonstyle
+{
+    border: solid 2px blue;
+    color: white;
+    background-color: blue;
+    font-family; 'Orbitron';
+    font-style: 'Orbitron';
+   
+    
+    
+}
+
+.buttonstyle:active
+{
+    transform: scale(1.1, 1);
+}
+
+
+#factorybutton{
+    
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    
+    
+}
+
+#cashbutton
+{
+	background-image: url('Images/cashbackground.png');	
+	height: 250; 
+	width: 250;
+	color: white;
+}
+
+#factorybutton:active
+{
+    transform: scale(1.1, 1);
+}
+
+#upgradebutton
+{
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    
+}
+
+
+
+#cashcounter
+{
+    position: absolute;
+    top: 20px;
+}
+
+#housebutton
+{
+    position: absolute;
+    top: 500px;
+    
+    
+}
+
+#bankbutton
+{
+	position: absolute;
+	top: 700px;
+	
+}
+
+#cashcheck{
+    border: outset 2px white;
+    background-color: white;
+    float: right;
+    position: absolute;
+   top: 10px;
+}
+
+#cashearn
+{
+    border: outset 2px white;
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 35px;
+}
+
+#factories{
+    border: outset 2px white;
+    background-color: white;
+    
+    
+}
+
+#factorycost
+{
+     border: outset 2px white;
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 30px;
+    
+}
+
+
+#clickcheck
+{
+    border: outset 2px white;
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 8px;
+}
+
+#clickcost
+{
+    border: outset 2px white;
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 30px;
+    
+}
+
+#misclist
+{
+    background-color: white;
+    width: 250px;
+    position: relative;
+    float: right;
+}
+
+#itemlist
+{
+    background-color: white;
+    width: 250px;
+    position: relative;
+    top: 500px;
+    left: 400px;
+}
+
+
+#housecost
+{
+    border: outset 2px white;
+    background-color: white;
+    width: 150px;
+
+}
+
+
+#cannon
+{
+	transform: scale(0.5);
+	position: absolute;
+	top: 700px;
+	
+}
+
+#bankcost
+{
+	 border: outset 2px white;
+    background-color: white;
+    float: right;
+    position: absolute;
+    top: 30px;
+}

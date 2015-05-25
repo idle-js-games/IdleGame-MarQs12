@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>IdleGame</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="Mechanics.js"></script>
+        
+        <link href='http://fonts.googleapis.com/css?family=Orbitron:700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+    	
+    	<script type="text/javascript">
+
+
+</script>
+        
+        <div id = "upgradebutton">
+            <button onclick ="UpgradeClick()" id ="clickUpgrade" class= "buttonstyle">Upgrade clicks</button>
+            <p id = "clickcheck"></p>
+            <p id = "clickcost">Next upgrade: 20</p>
+        </div>
+         
+        <div id = "cashcounter">
+        <button onclick = "ClickForCash()" class = "buttonstyle" id = "cashbutton">Click for money</button>
+        <p id = "cashcheck"></p> 
+        <p id ="cashearn">Cash per second</p>
+        </div>
+        
+        <div id = "factorybutton">
+            <button onclick ="BuyFactory()" class = "buttonstyle">Factories</button>
+            <p id ="factorycost">Next factory = 5</p>
+        </div>
+        
+        <ul id = "misclist" style="list-style-type:none">
+            <li id ="totalclicks">Total clicks = 0</li>
+            <li id ="totalcash">Total cash = 0 </li>
+            <li id = "cashspent">Cash spent = 0</li>
+        </ul>
+        
+        <div id= "housebutton">
+            <button onclick = "BuyHouses()" class = "buttonstyle">Buy houses</button>
+            <p id = "housecost">Next house = 10 </p>
+        </div>
+        
+        
+        <div id = "bankbutton">
+        	<button onclick = "BuyBank()" class = "buttonstyle">Buy bank</button>
+        	<p id = "bankcost">Next bank = 100</p>
+        </div>
+        
+        <ul id ="itemlist">
+            <li id = "houses">Houses: 0</li>
+            <li id = "factories">Factories: 0</li>
+            <li id = "banks">Bank: 0</li>
+        </ul>
+        
+        <!--- To do: Make the cannon shot lasers ---->
+        <!---- <img src = "Images/cannon.png" alt = "cannon" id = "cannon"> --->
+    </body>
+</html>
